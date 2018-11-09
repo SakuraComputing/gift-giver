@@ -12,7 +12,21 @@ it('initialises the `state` with an empty list of gifts', () => {
     expect(app.state().gifts).toEqual([]);
 });
 
-it('add a new gift to `state` when clicking the `add gift` button', () => {
-    app.find('.btn-add').simulate('click');
-    expect(app.state().gifts).toEqual([{ id: 1 }]);
+describe('when clicking the `add gift` button', () => {
+
+    beforeEach(() => {
+        app.find('.btn-add').simulate('click');
+    });
+
+    afterEach(() => {
+        app.setState({ gifts: []});
+    });
+
+    it('add a new gift to `state`', () => {
+        expect(app.state().gifts).toEqual([{ id: 1 }]);
+    });
+    
+    it('adds a new gift to the rendered list', () => {
+        expect(app.find('.gift-list').children().length).toEqual(1);
+    });
 });
