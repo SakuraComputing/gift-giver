@@ -38,6 +38,12 @@ ShallowWrapper {
             componentClass="input"
             onChange={[Function]}
           />
+          <FormControl
+            bsClass="form-control"
+            className="input-present"
+            componentClass="input"
+            onChange={[Function]}
+          />
         </FormGroup>
       </Form>,
     },
@@ -60,6 +66,12 @@ ShallowWrapper {
           <FormControl
             bsClass="form-control"
             className="input-person"
+            componentClass="input"
+            onChange={[Function]}
+          />
+          <FormControl
+            bsClass="form-control"
+            className="input-present"
             componentClass="input"
             onChange={[Function]}
           />
@@ -88,6 +100,12 @@ ShallowWrapper {
               componentClass="input"
               onChange={[Function]}
             />,
+            <FormControl
+              bsClass="form-control"
+              className="input-present"
+              componentClass="input"
+              onChange={[Function]}
+            />,
           ],
         },
         "ref": null,
@@ -112,6 +130,20 @@ ShallowWrapper {
             "props": Object {
               "bsClass": "form-control",
               "className": "input-person",
+              "componentClass": "input",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-control",
+              "className": "input-present",
               "componentClass": "input",
               "onChange": [Function],
             },
@@ -153,6 +185,12 @@ ShallowWrapper {
               componentClass="input"
               onChange={[Function]}
             />
+            <FormControl
+              bsClass="form-control"
+              className="input-present"
+              componentClass="input"
+              onChange={[Function]}
+            />
           </FormGroup>
         </Form>,
       },
@@ -175,6 +213,12 @@ ShallowWrapper {
             <FormControl
               bsClass="form-control"
               className="input-person"
+              componentClass="input"
+              onChange={[Function]}
+            />
+            <FormControl
+              bsClass="form-control"
+              className="input-present"
               componentClass="input"
               onChange={[Function]}
             />
@@ -203,6 +247,12 @@ ShallowWrapper {
                 componentClass="input"
                 onChange={[Function]}
               />,
+              <FormControl
+                bsClass="form-control"
+                className="input-present"
+                componentClass="input"
+                onChange={[Function]}
+              />,
             ],
           },
           "ref": null,
@@ -227,6 +277,20 @@ ShallowWrapper {
               "props": Object {
                 "bsClass": "form-control",
                 "className": "input-person",
+                "componentClass": "input",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-control",
+                "className": "input-present",
                 "componentClass": "input",
                 "onChange": [Function],
               },
